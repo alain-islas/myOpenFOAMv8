@@ -33,7 +33,7 @@ $$
 
 where $b_{\varepsilon,i,j}$ are the polynomial coefficients. In the standard form of (Smith et al., 1982)[^2]
 these coefficients are valid for specific molar ratios, $MR = X_{H_{2}O}/X_{CO_{2}}=1.0\,2.0$ and preferably should
-only if the composition of the mixture is known.
+be used only if the composition of the mixture is known.
 
 [^1]: Hottel, Hoyt C. "Radiant heat transmission." WH McAdams. Heat Transmission (1954).
 [^2]: Smith, T. F., Z. F. Shen, and J. N. Friedman. "Evaluation of coefficients for the weighted sum of gray gases model." (1982): 602-608.
