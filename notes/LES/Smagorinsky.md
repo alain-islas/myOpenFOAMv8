@@ -11,6 +11,14 @@ $$
 \begin{align}
 \tau_{ij}&=\overline{u_{i}u_{j}}-\bar{u_{i}}\bar{u_{j}} \\
 &=\frac{1}{3}\tau_{kk}\delta_{ij}+\left(\tau_{ij}-\frac{1}{3}\tau_{kk}\delta_{ij}\right)\\
-&\approx\frac{1}{3}\tau_{kk}\delta_{ij}-2\nu_{SGS}dev(\overline{D_{ij}})
+&\approx\frac{1}{3}\tau_{kk}\delta_{ij}-2\nu_{SGS}dev(\overline{D_{ij}})\\
+&\approx\frac{2}{3}k_{SGS}\delta_{ij}-2\nu_{SGS}dev(\overline{D_{ij}})
 \end{align}
+$$
+
+where $\nu_{SGS}$ is the subgrid-scale viscosity and $\overline{D_{ij}}$ is the resolved strain rate tensor 
+defined as
+
+$$
+\overline{D_{ij}}=\frac{1}{2}\left(\frac{\partial \bar{u_{i}}}{\partial x_{j}}+\frac{\partial \bar{u_{j}}}{\partial x_{i}}\right)
 $$
