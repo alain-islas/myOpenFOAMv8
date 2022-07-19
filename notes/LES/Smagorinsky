@@ -1,3 +1,5 @@
+# Smagorinsky
+
 The Smagorinsky subgrid-scale (SGS) model was developed by J. Smagorinsky in the
 metereological community in 1963. It is based on the eddy viscosity assumption,
 which postulates a linear relationship between the SGS shear stress and the re-
