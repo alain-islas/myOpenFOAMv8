@@ -7,5 +7,5 @@ rate of strain tensor. This model serves as a base for other SGS models.
 
 
 The subgrid scale stress tensor $\tau_{ij}$ is
-$$\tau_{ij}=\overline{u_{i}u_{j}}-\overline{u_{i}}\overline{u_{j}}$$
+$$\tau_{ij}=\overline{u_{i}u_{j}}-\bar{u_{i}}\bar{u_{j}}$$
 
