@@ -1,7 +1,7 @@
 # Weighted-sum of gray gas model (WSGGM)
 
 The weighted sum of gray gas model (WSGGM) was first developed by
-Hottel and Sarofim. It replaces the spectrum with few gray gases
+Hottel and Sarofim[^1]. It replaces the spectrum with few gray gases
 and a transparent window according to
 
 $$
@@ -31,6 +31,9 @@ $$
 a_{\varepsilon,i}\left(T\right)=\sum_{j=1}^{N_{g}}b_{\varepsilon,i,j}T^{j-1}
 $$
 
-where $b_{\varepsilon,i,j}$ are the polynomial coefficients. However, this expression does
-not allow to consider variations in the composition of the gas mixture, so that coefficients
-must be determined for specific molar ratios, $\text{MR}=X_{\text{H}_{2}\text{O}}/X_{\text{CO}_{2}}$.
+where $b_{\varepsilon,i,j}$ are the polynomial coefficients. In the standard form of (Smith et al., 1982)[^2]
+these coefficients are valid for specific molar ratios, $MR = X_{H_{2}O}/X_{CO_{2}}=1.0\,2.0$ and preferably should
+only if the composition of the mixture is known.
+
+[^1]: Hottel, Hoyt C. "Radiant heat transmission." WH McAdams. Heat Transmission (1954).
+[^2]: Smith, T. F., Z. F. Shen, and J. N. Friedman. "Evaluation of coefficients for the weighted sum of gray gases model." (1982): 602-608.
