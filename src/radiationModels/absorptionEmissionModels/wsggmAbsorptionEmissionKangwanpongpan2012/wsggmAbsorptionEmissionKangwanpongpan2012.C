@@ -217,6 +217,15 @@ Foam::radiationModels::absorptionEmissionModels::wsggmAbsorptionEmissionKangwanp
 	    scalar XkH2O = mixture.Y(indexH2O)[celli]/(mixture.Wi(indexH2O)*invWt);
 
 	    scalar mr = XkH2O/XkCO2;
+	    
+            if (mr < 0.125)
+            {
+                mr = 0.125;
+            }
+            if (mr > 4.0)
+            {
+                mr = 4.0;
+            }	    
 
 	    double emissivityCoeffs_[4];
 	    double fittingFactors_[4][6];
