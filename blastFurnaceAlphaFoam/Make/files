@@ -1,0 +1,3 @@
+blastFurnaceAlphaFoam.C
+
+EXE = $(FOAM_APPBIN)/blastFurnaceAlphaFoam
