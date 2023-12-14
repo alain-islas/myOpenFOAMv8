@@ -1,0 +1,3 @@
+blastFurnaceAlphaFoamMomentumTransportModels.C
+
+LIB = $(FOAM_LIBBIN)/libblastFurnaceAlphaFoamMomentumTransportModels

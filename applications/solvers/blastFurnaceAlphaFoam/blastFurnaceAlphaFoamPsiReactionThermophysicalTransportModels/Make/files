@@ -1,0 +1,3 @@
+blastFurnaceAlphaFoamPsiReactionThermophysicalTransportModels.C
+
+LIB = $(FOAM_LIBBIN)/libblastFurnaceAlphaFoamPsiReactionThermophysicalTransportModels
